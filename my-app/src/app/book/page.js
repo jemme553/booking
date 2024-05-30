@@ -15,6 +15,7 @@ export default function Page() {
 
 
   function DateSelected(date) {
+    
     console.log(date.getMonth() + 1) // Month => 6,7,8
     console.log(date.getFullYear()) // Year => 2023,2024,2025
     console.log(date.getDate()) // Day of Month => 20,21,22,23
